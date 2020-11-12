@@ -13,7 +13,8 @@ export class TemplateComponent implements OnInit {
     nombre: 'Jonathan',
     apellido: 'Pérez',
     correo: 'mcjhona069@gmail.com',
-    pais: ''
+    pais: 'MEX',
+    genero: 'M'
   }
 
 
@@ -32,7 +33,7 @@ export class TemplateComponent implements OnInit {
             codigo: ''
           })
 
-          console.log(this.paises);
+        //  console.log(this.paises);
         } );
 
   }
